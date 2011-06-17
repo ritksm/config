@@ -1,5 +1,5 @@
 #Development
-dev-lang/python examples sqlite tk
+dev-lang/python examples sqlite tk doc
 dev-vcs/git tk
 dev-libs/libxml2 icu
 
