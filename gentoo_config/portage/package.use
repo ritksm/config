@@ -1,0 +1,49 @@
+#Development
+dev-lang/python examples sqlite tk
+dev-vcs/git tk
+dev-libs/libxml2 icu
+
+
+#System
+sys-fs/udev extras
+app-portage/eix optimization tools
+app-portage/layman git subversion
+x11-terms/rxvt-unicode pixbuf
+
+
+#Internet
+www-client/firefox custom-optimization
+net-misc/openvpn iproute2
+net-misc/rdesktop oss
+net-p2p/mldonkey -gtk
+
+#Multimedia
+media-video/mplayer cpudetection mpg123 pulseaudio v4l v4l2
+media-libs/libpng apng
+media-plugins/gst-plugins-meta ffmpeg lame musepack oss pluseaudio taglib theora v4l2 wavpack
+media-video/ffmpeg cpudetection faac oss v4l v4l2 threads
+media-video/libav cpudetection faac oss v4l v4l2
+media-sound/amarok -embedded ipod
+app-cdr/k3b lame ffmpeg taglib
+media-video/transcode v4l2 oss
+virtual/ffmpeg threads
+media-sound/audacity ffmpeg id3tag
+media-gfx/imagemagick fontconfig
+media-libs/gd fontconfig
+
+
+#KDE Family
+kde-base/dolphin thumbnail
+kde-base/kdelibs lzma
+kde-base/krdc rdesktop vnc
+kde-base/kopete msn
+
+
+#Office
+app-office/libreoffice gstreamer templates
+app-office/libreoffice-bin java
+
+
+#Virtualization
+app-emulation/virtualbox extensions pulseaudio
+

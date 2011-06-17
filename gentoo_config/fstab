@@ -1,0 +1,30 @@
+# /etc/fstab: static file system information.
+#
+# noatime turns off atimes for increased performance (atimes normally aren't 
+# needed); notail increases performance of ReiserFS (at the expense of storage 
+# efficiency).  It's safe to drop the noatime options if you want and to 
+# switch between notail / tail freely.
+#
+# The root filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# See the manpage fstab(5) for more information.
+#
+
+# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+/dev/sdb1		/boot		ext4		noatime		1 2
+/dev/sdb3		/		reiserfs	noatime		0 1
+/dev/sdb2		none		swap		sw		0 0
+/dev/sdb5		/home		ext4		noatime,user	0 1
+/dev/sdb6		/media/Document	ext4		noatime,user	0 1
+/dev/sdb7		/media/Backup	ext4		noatime,user	0 1
+/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
+
+
+/dev/sda1               /media/Misc           ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
+/dev/sda3               /media/Media            ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
+/dev/sda5               /media/LUG             ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
+/dev/sda6               /media/Tutorials        ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
+/dev/sda7               /media/Storage          ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
