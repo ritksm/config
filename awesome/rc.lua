@@ -11,7 +11,8 @@ require("naughty")
 -- Themes define colours, icons, and wallpapers
 beautiful.init("/home/jack/.config/awesome/theme.lua")
 
---awful.util.spawn_with_shell("xcompmgr -cF &")
+-- launch the Cairo Composite Manager
+-- awful.util.spawn_with_shell("cairo-compmgr &")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "konsole"

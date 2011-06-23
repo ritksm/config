@@ -47,3 +47,11 @@ app-office/libreoffice-bin java
 #Virtualization
 app-emulation/virtualbox extensions pulseaudio
 
+
+# ---
+# BEGIN: mail-client/thunderbird-5.0_beta1
+# ---
+# ---
+# END: mail-client/thunderbird-5.0_beta1
+# ---
+
