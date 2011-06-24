@@ -19,6 +19,7 @@ terminal = "konsole"
 editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
 browser = "chromium"
+filemanager = "dolphin"
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -66,8 +67,10 @@ myawesomemenu = {
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "open terminal", terminal },
 				    { "open xterm", "xterm" },
-				    { "open chromium", "chromium" },
-				    { "open dolphin", "dolphin" }
+				    { "open dolphin", "dolphin" },
+				    { "Internet", { {"Chromium", "chromium"}, {"Firefox", "firefox"}, {"Kopete", "kopete"}, {"Thunderbird", "thunderbird"}}},
+				    { "Multimedia", { {"GIMP", "gimp"}, {"SMPlayer", "smplayer"}}},
+				    { "System", { {"VirtualBox", "VirtualBox"}, {"Konsole", "konsole"} }},
                                   }
                         })
 
@@ -224,6 +227,7 @@ globalkeys = awful.util.table.join(
 
     --My programs
     awful.key({ modkey,		  }, "b",     function () awful.util.spawn(browser)     end),
+    awful.key({ modkey,		  }, "d",     function () awful.util.spawn(filemanager)     end),
 
     -- Prompt
     awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),

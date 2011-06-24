@@ -100,3 +100,11 @@ color desert
 
 "Enable neocomplcache"
 let g:neocomplcache_enable_at_startup = 1
+
+
+"For vimwiki"
+"set path
+let g:vimwiki_list = [{'path': '/home/jack/Documents/Dropbox/wiki/personal/',
+			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/personal_html',
+			\ 'diary_link_count': 5 },]
+
