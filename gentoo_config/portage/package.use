@@ -42,16 +42,8 @@ kde-base/kopete msn
 #Office
 app-office/libreoffice gstreamer templates
 app-office/libreoffice-bin java
-
+app-misc/freemind latex
 
 #Virtualization
 app-emulation/virtualbox extensions pulseaudio
-
-
-# ---
-# BEGIN: mail-client/thunderbird-5.0_beta1
-# ---
-# ---
-# END: mail-client/thunderbird-5.0_beta1
-# ---
 

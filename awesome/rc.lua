@@ -69,6 +69,7 @@ mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesom
 				    { "open xterm", "xterm" },
 				    { "open dolphin", "dolphin" },
 				    { "Internet", { {"Chromium", "chromium"}, {"Firefox", "firefox"}, {"Kopete", "kopete"}, {"Thunderbird", "thunderbird"}}},
+                                    { "Work", {{"Programming", {{"gvim", "gvim"}}},{"Office", {{"libreoffice", "libreoffice"}}}}},
 				    { "Multimedia", { {"GIMP", "gimp"}, {"SMPlayer", "smplayer"}}},
 				    { "System", { {"VirtualBox", "VirtualBox"}, {"Konsole", "konsole"} }},
                                   }

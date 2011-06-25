@@ -28,3 +28,5 @@
 /dev/sda5               /media/LUG             ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
 /dev/sda6               /media/Tutorials        ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
 /dev/sda7               /media/Storage          ntfs-3g         user,defaults,locale=zh_CN.utf8 0 0
+
+/dev/sdc7               /media/Old_Home   reiserfs            noatime,user    0 1
