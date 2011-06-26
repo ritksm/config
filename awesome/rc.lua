@@ -21,6 +21,8 @@ editor_cmd = terminal .. " -e " .. editor
 browser = "chromium"
 filemanager = "dolphin"
 
+awful.util.spawn_with_shell("cairo-compmgr &")
+
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
 -- If you do not like this or do not have such a key,
@@ -319,13 +321,24 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      focus = true,
                      keys = clientkeys,
-                     buttons = clientbuttons } },
+                     buttons = clientbuttons,
+	             } },
     { rule = { class = "MPlayer" },
       properties = { floating = true } },
     { rule = { class = "pinentry" },
       properties = { floating = true } },
     { rule = { class = "gimp" },
       properties = { floating = true } },
+    { rule = { class = "Chromium-browser" },
+      properties = { opacity = 0.9 } },
+    { rule = { class = "chromium-browser" },
+      properties = { opacity = 0.9 } },
+    { rule = { class = "Konsole" },
+      properties = { opacity = 0.8 } },
+    { rule = { class = "konsole" },
+      properties = { opacity = 0.8 } },
+
+
     -- Set Firefox to always map on tags number 2 of screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { tag = tags[1][2] } },
