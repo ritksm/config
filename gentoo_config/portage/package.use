@@ -47,3 +47,8 @@ app-misc/freemind latex
 #Virtualization
 app-emulation/virtualbox extensions pulseaudio
 
+
+
+# GNOME
+x11-base/xorg-server kdrive
+gnome-base/gvfs cdda
