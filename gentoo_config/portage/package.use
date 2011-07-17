@@ -1,5 +1,6 @@
 #Development
-dev-lang/python examples sqlite tk doc
+#dev-lang/python examples sqlite tk doc
+dev-lang/python examples sqlite doc
 dev-vcs/git tk
 dev-libs/libxml2 icu
 
@@ -9,7 +10,8 @@ sys-fs/udev extras
 app-portage/eix optimization tools
 app-portage/layman git subversion
 x11-terms/rxvt-unicode pixbuf
-
+app-text/lcdf-typetools kpathsea
+app-text/ghostscript-gpl cups
 
 #Internet
 www-client/firefox custom-optimization
@@ -18,7 +20,7 @@ net-misc/rdesktop oss
 net-p2p/mldonkey -gtk
 
 #Multimedia
-media-video/mplayer cpudetection mpg123 pulseaudio v4l v4l2
+media-video/mplayer cpudetection mpg123 pulseaudio v4l v4l2 oss
 media-libs/libpng apng
 media-plugins/gst-plugins-meta ffmpeg lame musepack oss pluseaudio taglib theora v4l2 wavpack
 media-video/ffmpeg cpudetection faac oss v4l v4l2 threads
@@ -30,6 +32,7 @@ virtual/ffmpeg threads
 media-sound/audacity ffmpeg id3tag
 media-gfx/imagemagick fontconfig
 media-libs/gd fontconfig
+www-plugins/adobe-flash -32bit
 
 
 #KDE Family
@@ -37,6 +40,7 @@ kde-base/dolphin thumbnail
 kde-base/kdelibs lzma
 kde-base/krdc rdesktop vnc
 kde-base/kopete msn
+kde-base/okular djvu
 
 
 #Office
@@ -52,3 +56,15 @@ app-emulation/virtualbox extensions pulseaudio
 # GNOME
 x11-base/xorg-server kdrive
 gnome-base/gvfs cdda
+
+
+# X Windows
+media-libs/freetype kpathsea
+
+
+# LaTex
+app-text/texlive cjk xetex
+app-text/texlive-core cjk xetex
+app-vim/vim-latex html
+
+

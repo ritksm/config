@@ -104,7 +104,30 @@ let g:neocomplcache_enable_at_startup = 1
 
 "For vimwiki"
 "set path
-let g:vimwiki_list = [{'path': '/home/jack/Documents/Dropbox/wiki/personal/',
-			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/personal_html',
+let g:vimwiki_list = [
+			\ {'path': '/home/jack/Documents/Dropbox/wiki/personal/',
+			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/personal/html/',
+			\ 'diary_link_count': 5 },
+			\
+			\ {'path': '/home/jack/Documents/Dropbox/wiki/linux/',
+			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/linux/html/',
+			\ 'diary_link_count': 5 },
+			\
+			\ {'path': '/home/jack/Documents/Dropbox/wiki/geek/',
+			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/geek/html/',
+			\ 'diary_link_count': 5 },
+			\
+			\ {'path': '/home/jack/Documents/Dropbox/wiki/IT/',
+			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/IT/html/',
 			\ 'diary_link_count': 5 },]
 
+
+"For vim-tex"
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+
+
+"set backup and save backup file to ~/.tmp/"
+set backup 
+set writebackup 
+set backupdir=~/.tmp/

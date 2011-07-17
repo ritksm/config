@@ -1,4 +1,5 @@
 >net-misc/openvpn-2.1.4
->www-plugins/adobe-flash-10.2.159.1_p201011173
->dev-python/beautifulsoup-3.1.0.1-r1
-=x11-libs/gtk+-2.24.5
+#>www-plugins/adobe-flash-10.2.159.1_p201011173
+#>dev-python/beautifulsoup-3.1.0.1-r1
+#=x11-libs/gtk+-2.24.5
+
