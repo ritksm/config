@@ -1,6 +1,6 @@
 #!/bin/bash
-cp ~/.config/awesome ./ -R
-cp ~/.xinitrc ./x11
+#cp ~/.config/awesome ./ -R
+#cp ~/.xinitrc ./x11
 cp ~/.xprofile ./x11
 cp ~/.bashrc ./
 cp ~/.vimrc ./vim/
