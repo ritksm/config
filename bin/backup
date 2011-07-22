@@ -1,0 +1,3 @@
+#!/bin/bash
+filename="stage4_"`eval date +%Y_%m_%d`".tar.bz2"
+tar cjf /media/Backup/stage4/$filename / -X /stage4.excl

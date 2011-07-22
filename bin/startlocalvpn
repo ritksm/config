@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /etc/openvpn
+openvpn --config ipv6_native_cn_local_route.ovpn --daemon openvpn
+#openvpn --config ipv6_hust.ovpn
+cp /etc/resolv.conf.google /etc/resolv.conf

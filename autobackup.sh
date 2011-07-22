@@ -13,3 +13,4 @@ cp /etc/locale.gen ./gentoo_config/
 cp /etc/rc.conf ./gentoo_config/
 cp /usr/src/linux/.config ./gentoo_config/kernel_config
 cp ~/.gitconfig	./gitconfig
+cp /usr/local/bin/* ./bin/

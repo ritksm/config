@@ -1,0 +1,5 @@
+#/bin/bash
+ip tunnel add sit1 mode sit ttl 128 remote 218.199.111.9 local 218.199.87.12
+/sbin/ifconfig sit1 up
+ifconfig sit1 add 2001:250:4000:ffff:200:5efe:218.199.87.12
+route -A inet6 add 2000::/3 gw fe80::5efe:218.199.111.9 sit1

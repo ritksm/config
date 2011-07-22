@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill openvpn
+pkill openvpn
+cp /etc/resolv.conf.hust /etc/resolv.conf
