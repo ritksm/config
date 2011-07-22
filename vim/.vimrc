@@ -119,6 +119,10 @@ let g:vimwiki_list = [
 			\
 			\ {'path': '/home/jack/Documents/Dropbox/wiki/IT/',
 			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/IT/html/',
+			\ 'diary_link_count': 5 },
+			\
+			\ {'path': '/home/jack/Documents/Dropbox/wiki/Bingyan/',
+			\ 'path_html': '/home/jack/Documents/Dropbox/wiki/Bingyan/html/',
 			\ 'diary_link_count': 5 },]
 
 
