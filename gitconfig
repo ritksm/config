@@ -1,0 +1,16 @@
+[user]
+	email = ritksm@gmail.com
+	name = Jack River
+[color]
+	ui = true
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	br = branch
+	desc = describe
+	glog = log --graph
+[sendemail]
+	smtpserver = /usr/sbin/sendmail
+[core]
+	excludesfile = /home/jack/.gitignorefile
