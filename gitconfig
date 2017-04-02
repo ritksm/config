@@ -1,16 +1,23 @@
 [user]
-	email = ritksm@gmail.com
-	name = Jack River
+    email = ritksm@gmail.com
+    name = Jack Rivers
 [color]
-	ui = true
+    ui = true
 [alias]
-	ci = commit
-	co = checkout
-	st = status
-	br = branch
-	desc = describe
-	glog = log --graph
-[sendemail]
-	smtpserver = /usr/sbin/sendmail
+    ci = commit
+    co = checkout
+    st = status
+    br = branch
+    desc = describe
+    glog = log --graph
+    cia = commit -a -S
+    fp = fetch --all --prune
+    addup = remote add upstream
 [core]
-	excludesfile = /home/jack/.gitignorefile
+    excludesfile = ~/.gitignorefile
+    autocrlf = input
+    editor = /usr/local/bin/vim
+[rerere]
+    enabled = true
+[push]
+    default = simple
